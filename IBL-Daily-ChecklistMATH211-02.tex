@@ -6,7 +6,7 @@
 \usepackage{booktabs}
 \usepackage{tikz}
 \usepackage{longtable}
-
+\usepackage[table]{xcolor}
 
 \begin{document}
 
@@ -16,10 +16,11 @@
     \Large\textbf{Daily Worksheet—MATH 211-02}
 \end{center}
 
-\vspace{.25cm}
+\vspace{0.25cm}
 
 \setlength{\tabcolsep}{4pt}
 \renewcommand{\arraystretch}{1.5}
+\newcommand{\gray}{\cellcolor{gray!20}}
 
 \noindent
 \begin{tabular}{|
@@ -58,34 +59,34 @@
 \begin{turn}{90}\textbf{Presentation}\end{turn} &
 \parbox[c][1.5cm][c]{8cm}{\centering\textbf{Comments}} &
 \begin{turn}{90}\textbf{Charlie}\end{turn} &
-\begin{turn}{90}\textbf{Emily}\end{turn} &
+\begin{turn}{90}\textbf{Emily}\gray\end{turn} &
 \begin{turn}{90}\textbf{Zoey}\end{turn} &
-\begin{turn}{90}\textbf{Paul}\end{turn} &
+\begin{turn}{90}\textbf{Paul}\gray\end{turn} &
 \begin{turn}{90}\textbf{Matt}\end{turn} &
-\begin{turn}{90}\textbf{Will}\end{turn} &
+\begin{turn}{90}\textbf{Will}\gray\end{turn} &
 \begin{turn}{90}\textbf{Teryn}\end{turn} &
-\begin{turn}{90}\textbf{Eddie}\end{turn} &
+\begin{turn}{90}\textbf{Eddie}\gray\end{turn} &
 \begin{turn}{90}\textbf{Kien}\end{turn} &
-\begin{turn}{90}\textbf{Thao}\end{turn} &
+\begin{turn}{90}\textbf{Thao}\gray\end{turn} &
 \begin{turn}{90}\textbf{Jay}\end{turn} &
-\begin{turn}{90}\textbf{Jeren}\end{turn} &
+\begin{turn}{90}\textbf{Jeren}\gray\end{turn} &
 \begin{turn}{90}\textbf{Minda}\end{turn} &
-\begin{turn}{90}\textbf{Kevin}\end{turn} &
+\begin{turn}{90}\textbf{Kevin}\gray\end{turn} &
 \begin{turn}{90}\textbf{Piper}\end{turn} &
-\begin{turn}{90}\textbf{Jackson}\end{turn} \\
+\begin{turn}{90}\textbf{Jackson}\gray\end{turn} \\
 \hline
 
 % Empty rows for evaluations
-\hline \rule{0pt}{3.4em} & & & & & & & & & & & & & & & & & & & & & & \\
-\hline \rule{0pt}{3.4em} & & & & & & & & & & & & & & & & & & & & & & \\
-\hline \rule{0pt}{3.4em} & & & & & & & & & & & & & & & & & & & & & & \\
-\hline \rule{0pt}{3.4em} & & & & & & & & & & & & & & & & & & & & & & \\
-\hline \rule{0pt}{3.4em} & & & & & & & & & & & & & & & & & & & & & & \\
-\hline \rule{0pt}{3.4em} & & & & & & & & & & & & & & & & & & & & & & \\
-\hline \rule{0pt}{3.4em} & & & & & & & & & & & & & & & & & & & & & & \\
-\hline \rule{0pt}{3.4em} & & & & & & & & & & & & & & & & & & & & & & \\
+\hline \rule{0pt}{3.4em} & & & & & & & & \gray& &\gray & &\gray & &\gray & &\gray & &\gray & & \gray& & \gray\\
+\hline \rule{0pt}{3.4em} & & & & & & & & \gray& &\gray & &\gray & &\gray & &\gray & &\gray & & \gray& & \gray\\
+\hline \rule{0pt}{3.4em} & & & & & & & & \gray& &\gray & &\gray & &\gray & &\gray & &\gray & & \gray& & \gray\\
+\hline \rule{0pt}{3.4em} & & & & & & & & \gray& &\gray & &\gray & &\gray & &\gray & &\gray & & \gray& & \gray\\
+\hline \rule{0pt}{3.4em} & & & & & & & & \gray& &\gray & &\gray & &\gray & &\gray & &\gray & & \gray& & \gray\\
+\hline \rule{0pt}{3.4em} & & & & & & & & \gray& &\gray & &\gray & &\gray & &\gray & &\gray & & \gray& & \gray\\
+\hline \rule{0pt}{3.4em} & & & & & & & & \gray& &\gray & &\gray & &\gray & &\gray & &\gray & & \gray& & \gray\\
+\hline \rule{0pt}{3.4em} & & & & & & & & \gray& &\gray & &\gray & &\gray & &\gray & &\gray & & \gray& & \gray\\
 \hline
-\multicolumn{7}{|r|}{\textbf{Attended class}} & & & & & & & & & & & & & & & & \\
+\multicolumn{7}{|r|}{\textbf{Attended class}} & & \gray& &\gray & &\gray & &\gray & &\gray & &\gray & & \gray& & \gray\\
 \hline
 \end{tabular}
 
@@ -94,3 +95,5 @@
 \noindent \textbf{Date:} \rule{10cm}{0.4pt}
 
 \end{document}
+\end{document}
+
